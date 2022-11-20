@@ -63,8 +63,33 @@
         </div>
 
         <!-- Countdown Page -->
-        <div class="card" id="countdown-page">
+        <div class="card" id="countdown-page" hidden>
             <h1 class="countdown">3</h1>
+        </div>
+
+        <!-- game page -->
+        <div class="card" id="game-page" hidden>
+            <!-- Item container -->
+            <div class="item-container"></div>
+        <!-- right/wrong buttons -->
+        <div class="item-footer">
+            <button class="wrong">Wrong</button>
+            <button class="right">Right</button>
+        </div>
+    </div>
+
+    <!-- score page -->
+    <div class="card" id="score-page" hidden>
+        <!-- score container -->
+        <div class="score-container">
+            <h1 class="title">Your Time</h1>
+            <h1 class="final-time">3.4s</h1>
+            <h1 class="base-time">Base Time: 2.4s</h1>
+            <h1 class="penalty-time">Penalty: +1.0s</h1>
+        </div>
+        <!-- Play again button -->
+        <div class="score-footer">
+            <button class="play-again">Play Again</button>
         </div>
     </div>
     <!-- Script -->
